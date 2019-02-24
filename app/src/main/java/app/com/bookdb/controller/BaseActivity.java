@@ -21,14 +21,6 @@ public class BaseActivity extends AppCompatActivity {
     protected native String upin(String pass);
     protected native String hola(int paraondeir);
 
-//    protected static String LOGIN_URL  =       "http://test.incenplus.com:5000/users/login";
-//    protected static String LOGOUT_URL  =      "http://test.incenplus.com:5000/users/logout";
-//    protected static String INSERT_BOOK_URL  = "http://test.incenplus.com:5000/books/insert";
-//    protected static String UPDATE_BOOK_URL  = "http://test.incenplus.com:5000/books/edit";
-//    protected static String DETAIL_BOOK_URL  = "http://test.incenplus.com:5000/books/detail";
-//    protected static String BOOK_LIST_URL    =   "http://test.incenplus.com:5000/books";
-//    protected static String PROFILE_USER_URL =   "http://test.incenplus.com:5000/users/me";
-
 
     protected SessionManager sessionManager;
 
@@ -36,15 +28,6 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sessionManager = new SessionManager();
-
-//        String ipin = ipin(LOGIN_URL);
-//        SysLog.getInstance().sendLog(TAG,"login  url       : "+ipin(LOGIN_URL));
-//        SysLog.getInstance().sendLog(TAG,"logout url       : "+ipin(LOGOUT_URL));
-//        SysLog.getInstance().sendLog(TAG,"insert book  url : "+ipin(INSERT_BOOK_URL));
-//        SysLog.getInstance().sendLog(TAG,"update book  url : "+ipin(UPDATE_BOOK_URL));
-//        SysLog.getInstance().sendLog(TAG,"detail book  url : "+ipin(DETAIL_BOOK_URL));
-//        SysLog.getInstance().sendLog(TAG,"book   list  url : "+ipin(BOOK_LIST_URL));
-//        SysLog.getInstance().sendLog(TAG,"profile list url : "+ipin(PROFILE_USER_URL));
 
         doRequestPermissions();
     }
