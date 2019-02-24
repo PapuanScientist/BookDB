@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_db_pref">bookdb</string>
+    <string name="app_error_username_password_not_match">Username and password not match</string>
+    <string name="app_error_no_network">No network connectivity</string>
+    <string name="app_exit_prompt">Apakah anda yakin untuk logout</string>
+    <string name="app_ok_command">OK</string>
+    <string name="app_cancel_command">Batal</string>
+    <string name="app_double_check_your_input">Periksa kembali inputan anda</string>
+    <string name="app_exit_message">Tekan dua kali untuk keluar</string>
+
+    <string name="app_fullname">Nama Lengkap</string>
+    <string name="app_username">Nama Pengguna</string>
+    <string name="app_password">Password</string>
+    <string name="app_profile">Profil</string>
+    <string name="app_book_list">Daftar Buku</string>
+    <string name="app_add_book">Tambah Buku</string>
+    <string name="app_edit_book">Update Buku</string>
+    <string name="app_detail_book">Detail Buku</string>
+    <string name="app_progress_please_wait">Memuat data ...</string>
+
+</resources>

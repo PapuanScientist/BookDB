@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/detail_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/ic_info"
+        android:drawableStart="@drawable/ic_info"
+        android:drawablePadding="10dp"
+
+        />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/ic_edit"
+        android:drawableStart="@drawable/ic_edit"
+        android:drawablePadding="10dp"
+        />
+
+</LinearLayout>
